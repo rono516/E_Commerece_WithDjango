@@ -26,4 +26,5 @@ STATICFILES_DIRS = (
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index, name='index'),
+    #path('<int:id>/',views.detail,name= 'detail'),
 ]
